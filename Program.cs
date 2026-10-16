@@ -8,9 +8,7 @@ while (true)
 {
     Counter++;
 }
-
 using System.Diagnostics;
-
 #if DEBUG
 Console.WriteLine("Режим сборки: Debug");
 #else
